@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Desktop/ Global View*/
+body {
+  font-family: Playfair Display;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #003471;
+}
+
+.teal-background {
+  background-color: #3574bf;
+}
+
+.col {
+  float: left;
+  padding: 1%;
+}
+
+.col-lg {
+  width: 48%;
+}
+
+.col-portfolio {
+  width: 31.3%;
+}
+
+.col-lg img { /*need to change color of menu list*/
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+#menu {
+  float: right;
+  font-family: Roboto slab;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #d1d1d1;
+  padding: 8px;
+  font-size: 18;
+  font-weight: 700;
+}
+
+header {
+  padding: 10px 20px 20px 20px;
+}
+
+.hero-1 {
+  background-image: url("images/hero-background1.png");
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.hero-2 {
+  background-image: url("images/hero-background2.png");
+  padding: 52px 10px 72px 72px;
+  background-size: cover;
+}
+
+.hero-3 {
+  background-image: url("images/hero-background3.png");
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.hero-4 {
+  background-image: url("images/hero-background4.png");
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.hero-5 {
+  background-image: url("images/hero-background5.png");
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.subheading {
+  color: #d1d1d1;
+  font-wegiht: 800;
+  font-size: 33px;
+  margin-bottom: -45px;
+}
+
+h1 {
+  color: #d1d1d1;
+  font-family: Playfair Display;
+  font-weight: 300;
+  font-size: 52px;
+  margin-bottom: -5px;
+}
+
+h2 {
+  color: #d1d1d1;
+  font-family: Playfair Display;
+  font-weight: 300;
+  font-size: 52px;
+  margin-bottom: -5px;
+  background-color: #003471;
+}
+
+.heading-body-copy {
+  color: #d1d1d1;
+  margin-right: 20%;
+}
+
+.Home-button {
+  background-color: #3574bf;
+  font-family: Roboto slab;
+  padding: 8px 30px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.navyblue-home-button {
+  background-color: #003471;
+  font-family: Roboto slab;
+  padding: 8px 30px;
+  text-decoration: underline;
+  color: #d1d1d1;
+}
+
+.top-button {
+  background-color: #3574bf;
+  font-family: Roboto slab;
+  padding: 8px 30px;
+  text-decoration: underline;
+  color: #000000;
+  float: right;
+  margin-right: 30px;
+}
+
+.navyblue-top-button {
+  background-color: #003471;
+  font-family: Roboto slab;
+  padding: 8px 30px;
+  text-decoration: underline;
+  color: #d1d1d1;
+  float: right;
+  margin-right: 30px;
+}
+
+/*#project-dates{
+	float: left;
+} Doesn't work*/
+
+.description {
+  background-color: #d1d1d1;
+  padding: 20px;
+  margin-right:auto; 
+}
+
+
+
+
+
+
+/*Tablet View*/
+@media (max-width: 768px) {
+  #menu li {
+    display: block;
+    text-align: right
+  }
+	
+  .col-md {
+    width: 48%;
+  }
+	
+  .top-button {
+    background-color: #3574bf;
+    font-family: Roboto slab;
+    padding: 8px 30px;
+    text-decoration: underline;
+    color: #000000;
+    margin: 20px;
+  }
+}
+
+
+
+
+
+/*Mobile View*/
+@media (max-width: 420px) {
+  .slicknav_menu {
+    display: block;
+  }
+	
+  #menu {
+    display: none; /*Put block if hamburger isn't displaying, this will show the menu list from other sizes*/
+  }
+	
+  h1 {
+    color: #d1d1d1;
+  }
+	
+  .col-sm {
+    width: 100%;
+  }
+	
+  .col {
+    padding: 0%;
+  }
+	
+  .top-button {
+    background-color: #3574bf;
+    font-family: Roboto slab;
+    padding: 8px 30px;
+    text-decoration: underline;
+    color: #000000;
+    margin: 27px;
+  }
+}
